@@ -1,0 +1,41 @@
+
+.home-page-menu-item {
+    width: 100%;
+    text-align: center;
+}
+
+.full-width {
+    width: 100%;
+}
+
+#intro-image {
+    background: url("../images/bg-welcome.png");
+    width: 100%;
+    height: 300px;
+}
+
+#welcome-text-container {
+    background: url("../images/welcome.png");
+    text-align: center;
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+}
+
+#welcome-text {
+    width: 100%;
+    height: 100%
+}
+
+#placeholder-for-map {
+    height: 400px;
+    width: 100%;
+    border: 1px solid blue;
+    text-align: center;
+    font-size: 4em;
+}
+
+.hidden {
+    display: none;
+}
+
