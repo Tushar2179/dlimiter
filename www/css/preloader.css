@@ -1,0 +1,8 @@
+#preloader {
+    text-align: center;
+}
+
+.preloader-wrapper.full {
+    width: 100%;
+    height: 2000px;
+}

@@ -27,7 +27,7 @@
     height: 100%
 }
 
-#placeholder-for-map {
+#map-canvas {
     height: 400px;
     width: 100%;
     border: 1px solid blue;
@@ -38,4 +38,3 @@
 .hidden {
     display: none;
 }
-
