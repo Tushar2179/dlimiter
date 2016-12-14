@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>krushn</title>
+    <link type="text/css" rel="stylesheet" href="../css/materialize.css">
+    <link type="text/css" rel="stylesheet" href="../css/preloader.css">
+    <link type="text/css" rel="stylesheet" href="../css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="../js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="../js/materialize.js"></script>
+
+</head>
+
+<body>
+
+    <!-- -------------------------PRELOADER----------------------------------- -->
+    <div id="preloader" class="preloader-wrapper full grey lighten-3">
+        <h1 class="black-text">Loading</h1>
+        <div class="row">
+            <div class="col l6 offset-l3">
+                <div class="progress">
+                    <div class="indeterminate"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- -------------------------PRELOADER----------------------------------- -->
+
+
+
+    <!-- ----------------------------NAVBAR----------------------------------- -->
+
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li class="waves-effect"><a href="../index.html">Home</a></li>
+                <li class="waves-effect"><a href="#">Settings</a></li>
+                <li class="waves-effect"><a href="#">Share</a></li>
+                <li class="waves-effect"><a href="#">About</a></li>
+            </ul>
+
+            <ul class="side-nav" id="mobile-menu">
+                <li class="side-nav-header full-width green lighten-2"><a href="#">#TODO:Header</a></li>
+                <li class="waves-effect full-width"><a href="../index.html">Home</a></li>
+                <li class="waves-effect full-width"><a href="#">Settings</a></li>
+                <li class="waves-effect full-width"><a href="#">Share</a></li>
+                <li class="waves-effect full-width"><a href="#">About</a></li>
+                <li class="waves-effect full-width"><a href="#" onclick="windowClose();return false">Exit</a></li>
+
+                <!-- SEARCH 
+        			<li>
+        				<form>
+        					<div class="input-field">
+            					<input id="search" type="search" required placeholder="Search" class="grey-text text-darken-3">
+            					<label for="search"><i class="material-icons black-text">search</i></label>
+            					<i class="material-icons">close</i>
+            				</div>
+                		</form>
+                	</li>
+        		-->
+
+            </ul>
+        </div>
+    </nav>
+    <!-- ------------------- NAVBAR -------------------------------------------- -->
+
+
+    <!-- ------------------- INTRO-HEAD --------------------------------------- - --
+
+    <div id="intro-banner">
+        <div id="intro-image" class="valign-wrapper">
+            <div class="container valign">
+                <div class="center-block" id="welcome-text-container">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ------------------- INTRO-HEAD ---------------------------------------- -->
+
+
+
+
+
+
+
+    <!-- -------------------- CONTENT ------------------------------------------- -->
+
+
+    <div class="container">
+        <ul class="full-width">
+            <li>
+                <div class="switch">Use location
+                    <label class="right">
+                        <input type="checkbox">
+                        <span class="lever"></span>
+                    </label>
+                </div>
+            </li>
+
+            <li class="row">
+                <span class="col s5">Units</span>
+                <div class="input-field col s7">
+                    <select name="units">
+                        <option value="km" selected>Kilometers</option>
+                        <option value="m">Miles</option>
+                    </select>
+                    
+                </div>
+
+            </li>
+
+        </ul>
+
+    </div>
+
+
+
+
+
+
+    <!-- -------------------- CONTENT ------------------------------------------- -->
+
+
+
+
+    <!-- ---------------------------SCRIPTS----------------------------------- -->
+
+    <script type="text/javascript" src="../js/main.js"></script>
+    <script type="text/javascript" src="../js/preloader.js"></script>
+</body>
+
+</html>

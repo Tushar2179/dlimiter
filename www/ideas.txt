@@ -1,0 +1,6 @@
+location accuracy tips :-
+1. gps should be always on
+
+map view &satellite view (in option)
+clear cache
+data cache size

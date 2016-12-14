@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>krushn</title>
+    <link type="text/css" rel="stylesheet" href="css/materialize.css">
+    <link type="text/css" rel="stylesheet" href="/css/preloader.css">
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+
+</head>
+
+<body>
+
+    <!-- -------------------------PRELOADER----------------------------------- -->
+    <div id="preloader" class="preloader-wrapper full grey lighten-3">
+        <h1 class="black-text">Loading</h1>
+        <div class="row">
+            <div class="col l6 offset-l3">
+                <div class="progress">
+                    <div class="indeterminate"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- -------------------------PRELOADER----------------------------------- -->
+
+
+
+    <!-- ----------------------------NAVBAR----------------------------------- -->
+
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li class="waves-effect"><a href="#">Home</a></li>
+                <li class="waves-effect"><a href="pages/settings.html">Settings</a></li>
+                <li class="waves-effect"><a href="#">Share</a></li>
+                <li class="waves-effect"><a href="#">About</a></li>
+            </ul>
+
+            <ul class="side-nav" id="mobile-menu">
+                <li class="side-nav-header full-width green lighten-2"><a href="#">#TODO:Header</a></li>
+                <li class="waves-effect full-width"><a href="#">Home</a></li>
+                <li class="waves-effect full-width"><a href="pages/settings.html">Settings</a></li>
+                <li class="waves-effect full-width"><a href="#">Share</a></li>
+                <li class="waves-effect full-width"><a href="#">About</a></li>
+                <li class="waves-effect full-width"><a href="#" onclick="windowClose();return false">Exit</a></li>
+
+                <!-- SEARCH
+        			<li>
+        				<form>
+        					<div class="input-field">
+            					<input id="search" type="search" required placeholder="Search" class="grey-text text-darken-3">
+            					<label for="search"><i class="material-icons black-text">search</i></label>
+            					<i class="material-icons">close</i>
+            				</div>
+                		</form>
+                	</li>
+        		-->
+
+            </ul>
+        </div>
+    </nav>
+    <!-- ------------------- NAVBAR -------------------------------------------- -->
+
+
+
+
+
+
+
+
+
+    <!-- -------------------- CONTENT ------------------------------------------- -->
+
+    <div class="row z-depth-3">
+
+        <!--
+        <div class="input-field col s12">
+            <select multiple>
+                <option value="real">Satellite</option>
+                <option value="press">Pressure</option>
+                <option value="therm">Temperature</option>
+                <option value="place">Places</option>
+            </select>
+        </div>
+-->
+
+        <div id="test1">
+            <div class="full-width" id="main-map">
+                <div id="map-canvas" class="blue lighten-4 blue-text">Coming soon!</div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- -------------------- CONTENT ------------------------------------------- -->
+
+
+
+
+    <!-- ---------------------------SCRIPTS----------------------------------- -->
+
+
+
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/preloader.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGkokNgXfruyn0-FME21hdnwIg8YR8j5Y&callback=initMap" async defer></script>
+
+</body>
+
+</html>
